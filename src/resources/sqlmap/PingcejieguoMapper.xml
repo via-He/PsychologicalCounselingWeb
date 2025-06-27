@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.PingcejieguoMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Pingcejieguo">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xinlicepingid" property="xinlicepingid" jdbcType="INTEGER"/>
+                                    <result column="cepingzhuti" property="cepingzhuti" jdbcType="VARCHAR"/>
+                                    <result column="zongdefen" property="zongdefen" jdbcType="VARCHAR"/>
+                                    <result column="zhuanyejianyi" property="zhuanyejianyi" jdbcType="VARCHAR"/>
+                                    <result column="ceshizhe" property="ceshizhe" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, xinlicepingid, cepingzhuti, zongdefen, zhuanyejianyi, ceshizhe, addtime    </sql>
+    </mapper>

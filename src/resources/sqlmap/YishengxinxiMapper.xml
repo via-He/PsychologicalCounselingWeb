@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.YishengxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Yishengxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="yishengzhanghao" property="yishengzhanghao" jdbcType="VARCHAR"/>
+                                    <result column="yishengxingming" property="yishengxingming" jdbcType="VARCHAR"/>
+                                    <result column="yishengzhaopian" property="yishengzhaopian" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="congyishijian" property="congyishijian" jdbcType="VARCHAR"/>
+                                    <result column="yishengjianjie" property="yishengjianjie" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                    <result column="issh" property="issh" jdbcType="VARCHAR"/>
+                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, yishengzhanghao, yishengxingming, yishengzhaopian, xingbie, congyishijian, yishengjianjie, addtime, issh    </sql>
+    </mapper>

@@ -1,0 +1,6 @@
+touch .gitignore
+.idea
+.gitignore
+/out
+*.iml
+*.class

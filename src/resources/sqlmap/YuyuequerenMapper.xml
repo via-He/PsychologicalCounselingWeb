@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.YuyuequerenMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Yuyuequeren">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="yuyueid" property="yuyueid" jdbcType="INTEGER"/>
+                                    <result column="yuyuebianhao" property="yuyuebianhao" jdbcType="VARCHAR"/>
+                                    <result column="yishengzhanghao" property="yishengzhanghao" jdbcType="VARCHAR"/>
+                                    <result column="yishengxingming" property="yishengxingming" jdbcType="VARCHAR"/>
+                                    <result column="yuyueshijian" property="yuyueshijian" jdbcType="VARCHAR"/>
+                                    <result column="yuyuerenxingming" property="yuyuerenxingming" jdbcType="VARCHAR"/>
+                                    <result column="lianxidianhua" property="lianxidianhua" jdbcType="VARCHAR"/>
+                                    <result column="yuyueren" property="yuyueren" jdbcType="VARCHAR"/>
+                                    <result column="yuyueleixing" property="yuyueleixing" jdbcType="VARCHAR"/>
+                                    <result column="querenjieguo" property="querenjieguo" jdbcType="VARCHAR"/>
+                                    <result column="fankuixinxi" property="fankuixinxi" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, yuyueid, yuyuebianhao, yishengzhanghao, yishengxingming, yuyueshijian, yuyuerenxingming, lianxidianhua, yuyueren, yuyueleixing, querenjieguo, fankuixinxi, addtime    </sql>
+    </mapper>

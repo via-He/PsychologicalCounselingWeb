@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.WenzhangMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Wenzhang">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="wenzhangbiaoti" property="wenzhangbiaoti" jdbcType="VARCHAR"/>
+                                    <result column="tupian" property="tupian" jdbcType="VARCHAR"/>
+                                    <result column="shipin" property="shipin" jdbcType="VARCHAR"/>
+                                    <result column="fenlei" property="fenlei" jdbcType="VARCHAR"/>
+                                    <result column="faburen" property="faburen" jdbcType="VARCHAR"/>
+                                    <result column="liulanliang" property="liulanliang" jdbcType="VARCHAR"/>
+                                    <result column="wenzhangneirong" property="wenzhangneirong" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, wenzhangbiaoti, tupian, shipin, fenlei, faburen, liulanliang, wenzhangneirong, addtime    </sql>
+    </mapper>

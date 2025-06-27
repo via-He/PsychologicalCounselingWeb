@@ -1,0 +1,100 @@
+/**
+ * layui_dropdown
+ * v2.3.4
+ * by Microanswer
+ * http://layuidropdown.microanswer.cn/
+ **/
+html #layuicss-dropdown_css {
+    display: none;
+    position: absolute;
+    width: 1989px
+}
+
+.layui-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.layu-dropdown-root {
+    position: absolute;
+    outline: 0;
+    overflow: hidden;
+    z-index: 891;
+    left: -8px;
+    top: 30px;
+}
+
+.layu-dropdown-pointer {
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABVQTFRFAAAAgICAgICAgICAhISE8PDw////jUnEegAAAAd0Uk5TAB/2/////74r3wgAAACOSURBVHicfcztDYAgDEVR2MCwgXEDwwbGDYwbyP4jyJfYlvbdvzc5zrH8ti8OFeKxou+384JEiPeDiAykhIgMpASICiCiAoDogE10wCQGYBEDMAgC6AQBVIIBGsEAhRDATAhgIiZAEhMgCAXghAIwQgUooQKEMICfMIBBmMBHmEAnANAIADQCAYVwCCjEC5fhzAE36RUGAAAAAElFTkSuQmCC) bottom center no-repeat;
+    background-size: 100% 50%;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center
+}
+
+.layu-dropdown-pointer.bottom {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.layu-dropdown-root .layu-dropdown-content {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #979797;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 8px 8px;background-color: #FFF;min-width: 76px;max-width: 500px;min-height: 10px;max-height: 400px;white-space: nowrap
+}
+
+
+
+
+.layu-dropdown-menu {
+    padding: 0;
+    margin: 0;
+    font-size: 12px
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap {
+    list-style: none;
+    outline: 0
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap:first-child {
+    margin-top: 10px
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap.layu-nomargin {
+    margin-top: 0 !important
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap:last-child {
+    margin-bottom: 10px
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap .layu-menu-item {
+    line-height: 36px
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap .layu-menu-item a {
+    display: block;
+    color: #333;
+    padding: 0 20px;
+    text-indent: 0;
+    font-size: 14px;
+    white-space: nowrap
+}
+
+.layu-dropdown-menu .layu-menu-item-wrap .layu-menu-item a:hover {
+    background-color: #D9D9D9
+}
